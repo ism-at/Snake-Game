@@ -20,7 +20,7 @@ const highScoreText = document.getElementById("highScore");
 //   drawParent(); // Now safe to call drawParent
 // });
 
-// Draw the map of the game, the snake and the food
+// Draw the map of game, snake, score and food
 function drawParent() {
   gameBoard.innerHTML = "";
   drawSnake();
